@@ -1,11 +1,11 @@
 {
   "name": "express-typescript",
   "version": "1.0.0",
-  "description": "",
-  "main": "public/build/index.js",
+  "description": "Server Express utilizando Typescript",
+  "main": "build/index.js",
   "scripts": {
     "build": "npx tsc",
-    "start": "node public/build/index.js",
+    "start": "node build/index.js",
     "dev": "nodemon src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
